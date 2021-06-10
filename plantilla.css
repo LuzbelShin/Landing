@@ -1,0 +1,57 @@
+/*
+ * plantilla.css
+ *
+ * Hoja de estilos externa usada como plantilla para el sitio web
+ */
+
+/* Barra de titulo */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 118px;
+    width: 100%;
+    text-align: center;
+    text-size-adjust: inherit;
+    background: rgb(91, 175, 243) url("Images/background.jpg");
+}
+
+
+/* Barra de pie */
+footer{
+    position: absolute;
+    top: calc(100% - 81px);
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    background: rgb(91, 175, 243) url("Images/background.jpg"); 
+    background-position-y: 495px;
+}
+
+/* Principal */
+main {
+    position: absolute;
+    height: calc(100% - 145px);
+    width: calc(100% - 145px);
+    top: 120px;
+    left: 145px;
+}
+
+/* Titulo en la seccion principal */
+main h1{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* Parrafos en la sección principal */
+main p{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Contenido en el pie de página */
+footer p{
+    color: black;
+    background-color: rgb(241, 225, 241);
+    margin: 0.7cm 10cm 1cm 10cm;
+}
